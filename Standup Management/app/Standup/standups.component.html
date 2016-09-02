@@ -1,13 +1,17 @@
 ﻿<div class="panel panel-primary">
     <div class="panel-heading">
-        Tiger Team Report
+        {{header}}
     </div>
     <div class="panel-body">
-        <div class="row">
-            <div class="col-md-2"> Filter by:</div>
-            <div class="col-md-4"><input type="text" /></div>
+        <div class="row" >
+            <div class="col-md-2">
+                Filter by:
+                <select [(ngModel)]="selectedResource">
+                    <option *ngFor="#resource of availableResources" [value]="resource.id">{{resource.name}}</option>
+                </select> 
+            </div>
         </div>
-        <div class="table-responsive">
+        <div class="table-responsive" style="margin:50px 0px 0px 0px; border:solid">
             <table class="table">
                 <thead>
                     <tr>
@@ -16,7 +20,7 @@
                         <th>Resource Name</th>
                         <th>Story Progress</th>
                         <th>Defect Progress</th>
-                        <th>Plan(for today)</th>
+                        <th>Plan (for today)</th>
                         <th>Comment</th>
                         <th>Update</th>
                     </tr>

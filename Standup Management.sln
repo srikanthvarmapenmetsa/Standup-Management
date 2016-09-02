@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Standup Management", "Standup Management\Standup Management.csproj", "{13ED2A31-379B-49C4-AC2D-7AEB4419C953}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandupManagement.Services", "StandupManagement.Services\StandupManagement.Services.csproj", "{09225713-4BF4-4E38-A2F6-3147334A45F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{13ED2A31-379B-49C4-AC2D-7AEB4419C953}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13ED2A31-379B-49C4-AC2D-7AEB4419C953}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13ED2A31-379B-49C4-AC2D-7AEB4419C953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09225713-4BF4-4E38-A2F6-3147334A45F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09225713-4BF4-4E38-A2F6-3147334A45F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09225713-4BF4-4E38-A2F6-3147334A45F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09225713-4BF4-4E38-A2F6-3147334A45F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
